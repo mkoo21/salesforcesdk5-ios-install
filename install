@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Place podfile where it needs to be (assuming git clone executed from project root)
+mv Podfile ../ios/Podfile
+
 #npm dependencies (DO NOT USE REACT-NATIVE LINK)
 npm i --save events
 npm i react-native-calendar-picker
