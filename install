@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#Place podfile where it needs to be (assuming git clone executed from project root)
+#Place podfile with project name where it needs to be (assuming git clone executed from project root)
+PROJECT_NAME=$(awk -F"[ '.]+" '$1 == "project"{print $2}' ../ios/Podfile)
+sed -i '' "s/forcetest/$(PROJECT_NAME)/g" Podfile
 mv Podfile ../ios/Podfile
 
 #npm dependencies (DO NOT USE REACT-NATIVE LINK)
