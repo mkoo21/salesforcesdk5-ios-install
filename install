@@ -49,4 +49,7 @@ npm i react-native-maps
 npm i https://github.com/mkoo21/react-native-fs
 
 #Cocoapods
-cd ios && pod install
+cd ../ios && pod install
+
+#Cleanup
+rm -rf ../salesforcesdk5-ios-install
