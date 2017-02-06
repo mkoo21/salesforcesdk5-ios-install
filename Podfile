@@ -30,5 +30,6 @@ pod 'SalesforceReact', :path => '../node_modules/SalesforceMobileSDK-iOS'
 pod 'CodePush', :path => '../node_modules/react-native-code-push'
 pod 'react-native-maps', :path => '../node_modules/react-native-maps'
 pod 'RNFS', :path => '../node_modules/react-native-fs'
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
 end
