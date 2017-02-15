@@ -7,26 +7,7 @@ sed -i '' "s/forcetest/$PROJECT_NAME/g" Podfile
 mv Podfile ../ios/Podfile
 
 #npm dependencies (DO NOT USE REACT-NATIVE LINK)
-npm i --save events
-npm i react-native-calendar-picker
-npm i react-native-swiper
-npm i https://github.com/ForceDotComLabs/react.force.git
-npm i redux
-npm i react-redux
-npm i redux-logger
-npm i redux-thunk
-npm i react-native-fetch-blob
-npm i react-native-geocoder
-npm i https://github.com/mkoo21/react-native-mail
-npm i https://github.com/aluksidadi/react-native-quick-look.git
-npm i react-native-side-menu
-npm i react-native-sortable-listview
-npm i react-native-star-rating
-npm i react-native-video
-npm i https://github.com/ForceDotComLabs/react.force.base.theme.git#master
-npm i https://github.com/ForceDotComLabs/react.force.data.git
-npm i https://github.com/ForceDotComLabs/react.force.datacontainer.git
-npm i https://github.com/forceDotComLabs/react.force.layout.git
+npm i events react-native-calendar-picker react-native-swiper https://github.com/ForceDotComLabs/react.force.git redux react-redux redux-logger redux-thunk react-native-fetch-blob react-native-geocoder https://github.com/mkoo21/react-native-mail https://github.com/aluksidadi/react-native-quick-look.git react-native-side-menu react-native-sortable-listview react-native-star-rating react-native-video https://github.com/ForceDotComLabs/react.force.base.theme.git#master https://github.com/ForceDotComLabs/react.force.data.git https://github.com/ForceDotComLabs/react.force.datacontainer.git https://github.com/forceDotComLabs/react.force.layout.git
 react-native link redux events react-native-calendar-picker react-native-swiper react-redux redux-logger redux-thunk react-native-fetch-blob react-native-geocoder react-native-mail react-native-quick-look react-native-side-menu react-native-sortable-listview react-native-star-rating react-native-video react.force.base.theme react.force.data react.force.datacontainer react.force.layout
 
 
