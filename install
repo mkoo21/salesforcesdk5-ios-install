@@ -19,4 +19,4 @@ npm i https://github.com/mkoo21/react-native-fs
 cd ../ios && pod install
 
 #Cleanup
-rm -rf ../salesforcesdk5-ios-install
+rm -rf ../salesforcesdk5-ios-install && cd ..
